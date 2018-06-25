@@ -15,7 +15,8 @@ public class Main {
     }
 
     public static int hash(int value) {
-    	
+    	// using mod 10 so that the resulting index value is single digit
+    	//since the array size is 10
     		return Math.abs(value)  % 10; 
     }
 }
